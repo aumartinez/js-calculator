@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>JavaScripts</title>
+  <meta name="description" content="The Javascript page" />
+  <meta name="author" content="Augusto Martinez" />
+ 
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+  <link href="css/styles.css" rel="stylesheet" type="text/css"/>   
+  <script src="js/calculator.js"></script>
+    
+</head>
+
+<body> 
+  
+ <section>
+ 
+   <div class="jumbotron">
+       <div class="container">
+           <div class="row">
+               <div class="col-xs-12">
+                   <h1 class="text-center">
+                       A JavaScript calculator
+                   </h1>       
+               </div>
+               
+           </div>
+       </div>
+   </div>
+ 
+    <div class="container">
+      
+          
+          <div class="row">
+              <div class="col-xs-12">
+                  <h3 class="text-center">
+                      Calculator
+                  </h3>                  
+              </div>              
+          </div>
+        
+        <div class="row">
+          <div class="col-xs-12 med-padding">
+            <div class="calculator">
+              <div class="cal-screen">
+                <span id="cal-display">0</span>                
+              </div>
+              <div class="cal-keys">
+                <div class="operator-keys">
+                  <button class="operator-btn" data-action="add">
+                    +
+                  </button>
+                  <button class="operator-btn" data-action="subtract">
+                    -
+                  </button>
+                  <button class="operator-btn" data-action="multiply">
+                    &times;
+                  </button>
+                  <button class="operator-btn" data-action="divide">
+                    ?
+                  </button>
+                </div>
+                <div class="digits-keys">
+                  <div class="digits-row">
+                    <button class="digits-btn">
+                      7
+                    </button>
+                    <button class="digits-btn">
+                      8
+                    </button>
+                    <button class="digits-btn">
+                      9
+                    </button>
+                  </div>
+                    
+                    <div class="digits-row">
+                    <button class="digits-btn">
+                      4
+                    </button>
+                    <button class="digits-btn">
+                      5
+                    </button>
+                    <button class="digits-btn">
+                      6
+                    </button>
+                  </div>
+                    
+                    <div class="digits-row">
+                    <button class="digits-btn">
+                      1
+                    </button>
+                    <button class="digits-btn">
+                      2
+                    </button>
+                    <button class="digits-btn">
+                      3
+                    </button>
+                  </div>
+                    
+                     <div class="digits-row">
+                    <button class="digits-btn">
+                      0
+                    </button>
+                    <button class="digits-btn" data-action="decimal">
+                      .
+                    </button>
+                    <button class="digits-btn" data-action="clear">
+                      C
+                    </button>
+                </div>                    
+              </div>
+                  <div class="equal-key">
+                  <button class="operator-btn equal-btn" data-action="equals">
+                      =
+                    </button>
+                </div>
+                  <div class="clearer">
+                      
+                  </div>
+            </div>
+          </div>
+        </div>
+    </div>
+        </div>
+  </section>
+    
+</body>
+</html>
