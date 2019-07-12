@@ -104,7 +104,7 @@ function mouseAction(evt){
             break;
         
         case 'decimal':            
-            let getNumb =  display[0].textContent;
+            let getNumb =  display.textContent;
             let hasDecimal = getNumb.match(/\./);                       
             
             if(!hasDecimal){
