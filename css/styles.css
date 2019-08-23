@@ -1,3 +1,4 @@
+
 body{
   background-color:#fff;
   font-size:16px;
@@ -20,7 +21,7 @@ body{
   border:1px solid #ccc;
   border-radius:25px;
   overflow:hidden;
-  width:320px;
+  width: 290px;
   margin:auto;
   position:relative;
 }
