@@ -12,3 +12,5 @@ function addEventListenerToList(list, evt, func){
     }
 }
 ```
+
+You can test a working sample at: https://accedo-gps.000webhostapp.com/demo/js-calculator/index.html
