@@ -13,98 +13,98 @@ body{
 }
 
 .clearer{
-    clear:both;
+    clear: both;
 }
 
 .calculator{
-  display:block;
-  border:1px solid #ccc;
-  border-radius:25px;
-  overflow:hidden;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  overflow: hidden;
   width: 290px;
-  margin:auto;
-  position:relative;
+  margin: 0 auto 60px;
+  position: relative;
 }
 
 .cal-screen{
-  font-size:36px;
-  width:100%;
-  background-color:#000;
-  color:#fff;  
-  padding:15px 30px;
-  text-align:right;  
+  font-size: 36px;
+  width: 100%;
+  background-color: #000;
+  color: #fff;  
+  padding: 15px 30px;
+  text-align: right;  
 }
 
 #cal-display{
-    max-width:100%;
-    overflow:hidden;
-    display:inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    display: inline-block;
 }
 
 .cal-keys{
-  background-color:#fff;
-  display:table;
-  width:100%;
-  font-size:25px;
+  background-color: #fff;
+  display: table;
+  width: 100%;
+  font-size: 25px;
 }
 
 .operator-keys{
-  background-color:#ccc;
-  display:table-row;
+  background-color: #ccc;
+  display: table-row;
 }
 
 .operator-btn{
-  display:table-cell;
-  width:25%;
-  border-radius:0;
-  border:0;
-  border-right:1px solid #ccc;
-  text-align:center;
-  padding:5px 0;
+  display: table-cell;
+  width: 25%;
+  border-radius: 0;
+  border: 0;
+  border-right: 1px solid #ccc;
+  text-align: center;
+  padding: 5px 0;
 }
 
 .operator-btn:last-child{
-  border:0;
+  border: 0;
 }
 
 .digits-keys{
-  display:table;
-  background-color:#fff;
-  width:75%;
-  border-collapse:collapse;
-  float:left;
+  display: table;
+  background-color: #fff;
+  width: 75%;
+  border-collapse: collapse;
+  float: left;
 }
 
 .digits-row{
-  display:table-row;
+  display: table-row;
 }
 
 .digits-btn{
-  display:table-cell;
-  width:33.33%;
-  border-radius:0;
-  border:0;
-  background-color:#fff;
-  padding:5px 0;
-    border-top:1px solid #ccc;
-    border-right:1px solid #ccc;
+  display: table-cell;
+  width: 33.33%;
+  border-radius: 0;
+  border: 0;
+  background-color: #fff;
+  padding: 5px 0;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
 }
 
 .equal-key{
-    float:left;
-    overflow:hidden;
-    width:25%;
-    display:table;
-    border-collapse:collapse;    
+  float: left;
+  overflow: hidden;
+  width: 25%;
+  display: table;
+  border-collapse: collapse;    
 }
 
 .equal-btn{
-    width:25%;
-    background-color:#FD7D4A;
-    position:absolute;
-    height:60%;
+  width: 25%;
+  background-color: #FD7D4A;
+  position: absolute;
+  height: 60%;
 }
 
 .operator-btn:active{
-    background-color:#aaa;
+  background-color: #aaa;
 }
